@@ -13,12 +13,14 @@ Current task
     Built header and navigation. 
     Stated to make it responsive.
     filler images in project grid.
+    Added a hero image at the top of the page.
+    started to build the about me section.
 
 Need to start
-    Build about me section.
     Make the navigation work.
     Build contact form (It will not actally work)
     Change filler images with something more aappropriate
+    footer
 
 
 

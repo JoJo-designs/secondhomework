@@ -3,7 +3,6 @@
 }
 
 main{
-    display: flex;
 }
 
 /* Eleaments found in the header*/
@@ -22,16 +21,26 @@ li{
     margin: 0 10px;
 }
 
+@media screen and (max-width: 768px) {
+    li {
+      display: block;
+    }
+  }
+
+.heroimg{
+    top: 55px;
+    width: 100%;
+}  
+
 /* Eleaments found in the body */
 body{
     width:100%;
-    margin-top: 60px;
 }
 
 section{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 img{
@@ -46,3 +55,5 @@ img{
       width: 50%;
     }
   }
+
+  /* Eleaments found in the about me section */
