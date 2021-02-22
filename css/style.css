@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+}
+
+/* Eleaments found in the header*/
+header{
+    width: 100%;
+    background: brown;
+    text-align:  center;
+    padding: 20px;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+li{
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Eleaments found in the body */
+body{
+    width:100%;
+    margin-top: 60px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    width: 33.33%;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+      width: 50%;
+    }
+  }
