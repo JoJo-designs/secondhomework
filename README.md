@@ -9,18 +9,21 @@ http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: public domain
 
+Done
+    Make navigation work
+    Build a contact form
+    About me section
+
 Current task
     Built header and navigation. 
     Stated to make it responsive.
     filler images in project grid.
     Added a hero image at the top of the page.
-    started to build the about me section.
 
 Need to start
-    Make the navigation work.
-    Build contact form (It will not actally work)
-    Change filler images with something more aappropriate
-    footer
+    
+    Change filler images with something more aappropriate.
+    Build a footer.
 
 
 

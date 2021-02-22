@@ -18,7 +18,15 @@ header{
 
 li{
     display: inline;
-    margin: 0 10px;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -57,3 +65,83 @@ img{
   }
 
   /* Eleaments found in the about me section */
+
+.aboutme{
+    margin-top: 25px;
+    display: flex;
+}
+
+.meimg{
+    margin: 0 25px 0 25px;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+}  
+div{
+    width: 45%;
+}
+
+h2{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+p{
+    display: block;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1090px) {
+    div {
+      width: 100%;
+      margin: 25px;
+    }
+  }
+
+  @media screen and (max-width: 1090px) {
+    .meimg {
+        margin: auto;
+    }
+  }
+
+  /* Eleaments found in the contact section */
+
+  .contact{
+    font-family: 'Jost', sans-serif;
+    background:cadetblue;
+    padding: 25px;
+    width: 100%;
+    display: block;
+    margin: 25px 0;
+  }
+  
+  .feedback{
+      display: block;
+      margin-bottom: 10px;
+      width: 300px;
+      height: 30px;
+      border: none;
+  }
+
+  .feedbacktwo{
+      height: 100px;
+      width: 300px;
+      margin-bottom: 10px;
+      border: none;
+  }
+
+  button{
+      display: block; 
+      width: 300px;
+      height: 30px;
+	  border: none;
+  }
+  
+  /* Eleaments found in the footer */
