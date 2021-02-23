@@ -3,6 +3,7 @@
 }
 
 main{
+    width: 100%;
 }
 
 /* Eleaments found in the header*/
@@ -24,9 +25,10 @@ li{
     font-family: 'Jost', sans-serif;
 }
 
-a{
+.nava{
     text-decoration: none;
     color: white;
+    display: inline;
 }
 
 @media screen and (max-width: 768px) {
@@ -41,6 +43,8 @@ a{
 }  
 
 /* Eleaments found in the body */
+
+
 body{
     width:100%;
 }
@@ -50,16 +54,21 @@ section{
     display: flex;
     flex-wrap: wrap;
 }
-
-img{
+a{
     width: 33.33%;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     flex-shrink: 1;
 }
 
+img{
+    width: 100%;
+    display: block; 
+    flex-shrink: 1;
+}
+
 @media screen and (max-width: 768px) {
-    img {
+    a {
       width: 50%;
     }
   }
@@ -67,18 +76,21 @@ img{
   /* Eleaments found in the about me section */
 
 .aboutme{
-    margin-top: 25px;
+    margin-top: 35px;
     display: flex;
 }
 
 .meimg{
     margin: 0 25px 0 25px;
-    width: 550px;
-    height: 550px;
+    width: 40%;
     border-radius: 50%;
+    display: flex;
+
 }  
 div{
-    width: 45%;
+    width: 55%;
+    min-width: 50%;
+    padding: 0 15px;
 }
 
 h2{
@@ -98,20 +110,22 @@ p{
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 1090px) {
+ @media screen and (max-width: 1000px) {
     div {
       width: 100%;
       margin: 25px;
+
     }
   }
 
-  @media screen and (max-width: 1090px) {
+  @media screen and (max-width: 1000px) {
     .meimg {
         margin: auto;
+        width: 60%;
     }
   }
 
-  /* Eleaments found in the contact section */
+ /* Eleaments found in the contact section */
 
   .contact{
     font-family: 'Jost', sans-serif;
@@ -119,29 +133,75 @@ p{
     padding: 25px;
     width: 100%;
     display: block;
-    margin: 25px 0;
+    margin-top: 25px;
   }
   
+  .contact h2{
+      margin-left: 32%;
+  }
+
   .feedback{
       display: block;
       margin-bottom: 10px;
-      width: 300px;
+      width: 35%;
       height: 30px;
       border: none;
+      margin-left: 32%;
+      font-family: 'Jost', sans-serif;
   }
 
   .feedbacktwo{
       height: 100px;
-      width: 300px;
+      width: 35%;
       margin-bottom: 10px;
       border: none;
+      margin-left: 32%;
+      font-family: 'Jost', sans-serif;
   }
 
   button{
       display: block; 
-      width: 300px;
+      width: 35%;
       height: 30px;
 	  border: none;
+      margin-left: 32%;
   }
   
+  @media screen and (max-width: 768px) {
+    .feedback {
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .feedbacktwo {
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    button {
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .contact h2 {
+        margin-left: 25%;
+    }
+  }
+
   /* Eleaments found in the footer */
+
+  footer{
+      background:brown;
+      height: 100px;
+      text-align:  center;
+      padding: 15px;
+  }
+
+  footer p {
+      color: white;
+  }
