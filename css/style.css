@@ -205,3 +205,28 @@ p{
   footer p {
       color: white;
   }
+
+  .fa {
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .fa-linkedin {
+      color: white;
+      width: 50px;
+  }
+
+  .fa-youtube {
+      color: white;
+      width: 50px;
+  }
+
+  .fa-github {
+      color: white;
+      width: 50px;
+  }
+
+  .fa-twitter {
+      color: white;
+      width: 50px;
+  }
