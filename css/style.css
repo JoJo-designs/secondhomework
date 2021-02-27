@@ -1,3 +1,4 @@
+/*elements found in everything*/
 *{
     box-sizing: border-box;
 }
@@ -6,15 +7,25 @@ main{
     width: 100%;
 }
 
-/* Eleaments found in the header*/
+/* Elements found in the header*/
 header{
     width: 100%;
-    background: brown;
-    text-align:  center;
-    padding: 20px;
+    background: #C95D5D;
+    text-align:  right;
+    padding: 15px;
     position:fixed;
     top:0;
     left:0;
+    z-index: 3000;
+}
+
+ header h1{
+    font-size: 30px;
+    display: block;
+    margin: 0 25px 20px 0;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: white;
 }
 
 li{
@@ -27,7 +38,7 @@ li{
 
 li:hover{
     background: rosybrown;
-    padding: 16px;
+    padding: 11px;
 }
 
 .nava{
@@ -35,19 +46,19 @@ li:hover{
     color: white;
     display: inline;
 }
-
+/* Hero image css*/
 .heroimg{
-    top: 55px;
+    margin-top: 55px;
     width: 100%;
 }  
 
 @media screen and (max-width: 768px) {
     .heroimg {
-      top:1000px;
+        margin-top:97px;
     }
   }
 
-/* Eleaments found in the body */
+/* Elements found in the body */
 
 
 body{
@@ -61,6 +72,7 @@ section{
     padding: 20px;
 }
 
+/* elements found in the Portfoilo section */
 .feat{
     display: flex;
     width: 100%;   
@@ -92,7 +104,11 @@ img{
     }
   }
 
-  /* Eleaments found in the about me section */
+section a:hover{
+    opacity: 0.5;
+}
+
+/* Elements found in the about me section */
 
 .aboutme{
     display: flex;
@@ -103,8 +119,16 @@ img{
     width: 40%;
     border-radius: 50%;
     display: flex;
+} 
 
-}  
+ @media screen and (max-width: 1100px) {
+    .meimg {
+        margin: auto;
+        width: 60%;
+    }
+  }
+
+/* aside content*/
 aside{
     width: 55%;
     min-width: 50%;
@@ -117,14 +141,17 @@ h2{
     margin-bottom: 15px;
     font-weight: 600;
     font-family: 'Jost', sans-serif;
+    color: #3A1414;
 }
 
 h3{
     display: block;
     margin-bottom: 25px;
     font-size: 20px;
+    line-height: 25px;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
+    color: #3A1414;
 }
 
 p{
@@ -133,8 +160,15 @@ p{
     font-size: 18px;
     font-weight: 300;
     font-family: 'Jost', sans-serif;
+    color: #3A1414;
     margin-bottom: 15px;
 }
+
+@media screen and (max-width: 700px) {
+    h3 {
+      font-size: 16.5px;
+    }
+  }
 
  @media screen and (max-width: 1100px) {
     aside {
@@ -143,18 +177,11 @@ p{
     }
   }
 
-  @media screen and (max-width: 1100px) {
-    .meimg {
-        margin: auto;
-        width: 60%;
-    }
-  }
-
- /* Eleaments found in the contact section */
+ /* Elements found in the footer/contact section */
 
   .contact{
     font-family: 'Jost', sans-serif;
-    background:cadetblue;
+    background:#DDBE90;
     padding: 25px;
     width: 100%;
     display: block;
@@ -163,66 +190,75 @@ p{
   
   .contact h2{
       margin-left: 32%;
+      color: white;
   }
 
   .feedback{
       display: block;
       margin-bottom: 10px;
-      width: 35%;
+      width: 40%;
       height: 30px;
       border: none;
-      margin-left: 32%;
+      margin-left: 30%;
       font-family: 'Jost', sans-serif;
   }
 
   .feedbacktwo{
       height: 100px;
-      width: 35%;
+      width: 40%;
       margin-bottom: 10px;
       border: none;
-      margin-left: 32%;
+      margin-left: 30%;
       font-family: 'Jost', sans-serif;
   }
 
-   .feedback:focus{
-       border-right: 5px solid green;
-   }
+    .feedback:focus{
+       border-right: 5px solid #C95D5D;
+}
 
    .feedbacktwo:focus{
-       border-right: 5px solid green;
-}
+       border-right: 5px solid #C95D5D;
+   }
 
   button{
       display: block; 
-      width: 35%;
+      width: 40%;
       height: 30px;
 	  border: none;
-      margin-left: 32%;
+      margin-left: 30%; 
+      background-color: #C95D5D;
+      color: white;
+      font-family: 'Jost', sans-serif;
+      font-weight: 600;
+  }
+
+  button:hover{
+    background: rosybrown;
   }
   
   @media screen and (max-width: 768px) {
     .feedback {
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%;
     }
   }
 
   @media screen and (max-width: 768px) {
     .feedbacktwo {
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%;
     }
   }
 
   @media screen and (max-width: 768px) {
     button {
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%; 
     }
   }
   @media screen and (max-width: 768px) {
     .contact h2 {
-        margin-left: 25%;
+        margin-left: 15%;
     }
   }
 
@@ -251,42 +287,4 @@ p{
     .contact li {
         display:block;
     }
-  }
-
-  /* Eleaments found in the footer */
-
-  footer{
-      background:brown;
-      height: 100px;
-      text-align:  center;
-      padding: 15px;
-  }
-
-  footer p {
-      color: white;
-  }
-
-  .fa {
-      text-align: center;
-      text-decoration: none;
-  }
-
-  .fa-linkedin {
-      color: white;
-      width: 50px;
-  }
-
-  .fa-youtube {
-      color: white;
-      width: 50px;
-  }
-
-  .fa-github {
-      color: white;
-      width: 50px;
-  }
-
-  .fa-twitter {
-      color: white;
-      width: 50px;
   }
