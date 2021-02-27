@@ -31,6 +31,8 @@ Code
 Design 
     When I was creating a layout for my website I wanted to make it functional and appealing to the eye. The site has a 3 coloum grid on desktop and two on smaller screen sizes and usesd the branding I am already useing as a graphic designer. Orginally I only had an image grid but the featured Project was added later. I like the way the one project is bigger and helps create some seperation beteen sections. 
 
+    At the moment most of the copy is just filler I will replace it with real text before I start looking for jobs.
+
 
 
 
