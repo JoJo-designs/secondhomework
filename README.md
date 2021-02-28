@@ -11,6 +11,8 @@ License: public domain
 
 For my portfoilo website I am using a simple scrolling site. I made an image reponsive. The images in grid each will be a link to a project that is live on the internet. 
 
+link to deployed application https://jojo-designs.github.io/secondhomework/
+
 Done
     Make navigation work
     Build a contact form and more contact info? 
