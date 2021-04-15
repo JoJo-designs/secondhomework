@@ -154,6 +154,17 @@ h3{
     color: #3A1414;
 }
 
+h5{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    color: #3A1414;
+}
+
 p{
     display: block;
     line-height: 1.5;
