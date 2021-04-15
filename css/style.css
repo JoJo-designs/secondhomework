@@ -288,3 +288,41 @@ p{
         display:block;
     }
   }
+  
+  .parttwo{
+    background-color: #C95D5D;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  .space {
+      padding-top: 20px;
+      color: white;
+      font-family: 'Jost', sans-serif
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  
+  .fa-linkedin {
+    color: white;
+  }
+  
+  .fa-github {
+    color: white;
+  }
+  
+  .fa-youtube {
+    color: white;
+  }
