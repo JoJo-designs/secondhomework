@@ -35,9 +35,9 @@ Design
 
     At the moment most of the copy is just filler I will replace it with real text before I start looking for jobs.
 
-![The landing page](/image/sample1.jpg?raw=true "Landing Page")
-![The landing page](/image/sample2.jpg?raw=true "portfolio")
-![The landing page](/image/sample2.jpg?raw=true "about me")
+![The landing page](/images/sample1.jpg?raw=true "Landing Page")
+![The portfolio](/images/sample2.jpg?raw=true "portfolio")
+![about me](/images/sample2.jpg?raw=true "about me")
 
 
 
