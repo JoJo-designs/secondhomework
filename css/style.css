@@ -108,6 +108,12 @@ section a:hover{
     opacity: 0.5;
 }
 
+ /* video frame elements */
+  
+ .videoFrame {
+  justify-content: center;
+}
+
 /* Elements found in the about me section */
 
 .aboutme{
@@ -152,6 +158,15 @@ h3{
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
     color: #3A1414;
+}
+
+h4{
+  display: block;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 'Jost', sans-serif;
+  color: #3A1414;
 }
 
 h5{
